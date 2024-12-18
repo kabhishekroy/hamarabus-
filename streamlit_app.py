@@ -3,7 +3,7 @@ import streamlit as st
 from google.generativeai.types import HarmCategory, HarmBlockThreshold
 
 # API configuration
-genai.configure(api_key="AIzaSyBBwgdrP-e3HyI4bG_KFN1a_c0JzdfiWH4")
+genai.configure(api_key="AIzaSyBars6v9Z2hYlZlYgyHxneyewp-urFUHCc")
 
 # Generation configuration
 generation_config = {
@@ -36,13 +36,13 @@ def gemini_1(query):
     return model_response
 
 # Streamlit UI setup
-st.title("Welcome to gemini vanquisher")
+st.title("Welcome to HAMARABUS ")
 
 # Sidebar for additional information or settings
 with st.sidebar:
-    st.header("Gemini Vanquisher", divider="rainbow")
-    st.write("Welcome to the Gemini Vanquisher AI chat interface!")
-    st.write("Ask me anything, About the health related quires.")
+    st.header("HAMARABUS", divider="rainbow")
+    st.write("Welcome to the HAMARABUS AI chat interface!")
+    st.write("Ask me anything, ABOUT TRAVING AND CITY ABOUT...")
 
 # Initialize session state for storing conversation messages
 if "messages" not in st.session_state:
